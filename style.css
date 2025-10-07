@@ -1,6 +1,7 @@
 body {
     width: 1200px;
     margin: auto;
+    font-family: 'Open Sans';
 }
 
 
@@ -13,24 +14,36 @@ body {
     gap: 40px;
 }
 
-.ask_butt {
-display: flex;
-padding: 10px 20px;
-color: white;
-background: #33836E;
-border-radius: 10px;
-border: none;
-font-size: 16px;
+.ask-butt {
+    display: flex;
+    padding: 10px 20px;
+    color: white;
+    background: #33836E;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
 }
 
 .contact {
-display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+
 }
 
-.phone_number {
+.phone-number {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     display: block;
+
+}
+.contact-info{
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(47, 43, 67, 0.5);
+
 }
 
 .seacrh {
@@ -50,17 +63,6 @@ display: block;
     gap: 40px;
 }
 
-.butt {
-box-sizing: border-box;
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 10px 20px;
-gap: 10px;
-border: 1px solid rgba(47, 43, 67, 0.15);
-border-radius: 10px;
-background: white;
-}
 
 .a {
     color: black;
@@ -74,6 +76,7 @@ background: white;
     justify-content: space-between;
     font-size: 16px;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .menu a{
@@ -81,8 +84,29 @@ background: white;
     color: black;
 }
 
-.menu_border {
+.menu-border {
     border: 1px solid rgba(78, 78, 78, 0.247);
     border-radius: 10px;
     padding: 10px 20px;
 }
+.search{
+    padding: 10px;
+
+    width: 427px;
+    background: rgba(47, 43, 67, 0.04);
+    border-radius: 10px;
+    border: none; 
+    font-size: 16 px
+
+}
+.text{
+}
+
+.choice{
+    display: flex;
+    color: rgba(47, 43, 67, 0.5);
+    text-decoration: none;
+    margin-top: 30 px;
+    margin-bottom: 60px;
+}
+
