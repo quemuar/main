@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
     width: 1200px;
     margin: auto;
@@ -22,6 +24,13 @@ body {
     border-radius: 10px;
     border: none;
     font-size: 16px;
+
+    align-items: center;
+    padding: 10px 20px;
+    height: 52px;
+
+
+
 }
 
 .contact {
@@ -102,11 +111,231 @@ body {
 .text{
 }
 
-.choice{
+
+.box_head {
     display: flex;
-    color: rgba(47, 43, 67, 0.5);
-    text-decoration: none;
-    margin-top: 30 px;
-    margin-bottom: 60px;
+    justify-content: space-between;
+
 }
 
+.text {
+    display: flex;
+    flex-direction: column;   
+}
+
+.main {
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+    color: #2F2B4380;
+}
+.heading {
+    display: flex;
+    margin-top: 20px;
+    width: 657px;
+    height: 104px;
+    font-size: 38px;
+    color: #140A32;
+
+    /* Горячая линия по оказанию юридической помощи онлайн */
+    margin-bottom: 15px;
+
+
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.03em;
+
+}
+.text1 {
+
+    width: 657px;
+    height: 104px;
+    line-height: 160%;
+}
+
+.frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.ask-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 36px 18px;
+    gap: 10px;
+    background: #33836E;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 56px;
+
+}
+.phone-number1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 24px;
+    color: #33836E;
+}
+.contact-info1 {
+
+    height: 0px;
+    border: 2px solid #33836E;
+    color: rgba(47, 43, 67, 0.5);
+
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+}
+.box_head1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 20px;
+
+}
+.box_middle {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: #140A32;
+
+    flex-grow: 0;
+
+
+}
+
+.help {
+    height: 50px;
+    font-size: 38px;
+    color: #140A32;
+
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+.down_windows {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px; */
+    margin-top: 40px;
+
+
+    /* Frame 11 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 20px;
+gap: 15px;
+
+width: 270px;
+height: 180px;
+
+/* Gray/Borders */
+border: 1px solid rgba(47, 43, 67, 0.15);
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+.number_text{
+
+    width: 150px;
+    height: 27px;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #140A32;
+
+
+}
+.down_text {
+
+
+/* green */
+color: #33836E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.down_windows {
+    padding: 20px;
+    width: 270px;
+    height: 180px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 20px;
+}
+.windows {
+    display: flex;
+    gap: 20px;
+}
+
+.box_head2 {
+    margin-top: 75px;
+}
+.box_middle2 {
+    margin-top: 20px;
+}
+.call-number {
+    margin-top: 75px;
+
+    width: 1140px;
+    height: 200px;
+    left: 150px;
+
+
+
+}
+
+.down_up_text{
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #140A32;
+
+
+}
